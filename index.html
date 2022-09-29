@@ -46,22 +46,35 @@
     </div>
 
     <!-- Image de présentation 1 -->
-    <img src="img/image2.jpg" alt="gateau" srcset="">
-    <div class="contenu"> <!-- Contenu à placer à droite de l'image -->
-        <section class="titleone">
-            <h1>
-                About catering
-            </h1>
-            <h4>
-                Tradition since 1889
-            </h4>
-        </section>
-        <article>
-            The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+      <div class="article_container">
 
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </article>
+        <div class="image_container">
+            <img src="img/image2.jpg" alt="gateau" srcset="">
+        </div>
+        <!-- Image-->
+        
+    
+        <div class="text_container"> <!-- Contenu à placer à droite de l'image -->
+            <section class="titleone">
+                <h1>
+                    About catering
+                </h1>
+                <h4>
+                    Tradition since 1889
+                </h4>
+            </section>
+            <article>
+                The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+    
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </article>
+        </div>
+
+
+
+
     </div>
+
     
     <hr>
 
@@ -104,21 +117,39 @@
 
             <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
         </div>
+        <!-- Formulaire -->
+        <form action="" method="post">
+            <div class="contenu4">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                Vous êtes :
+                    <select name="number_people">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="3">3</option>    
+                     </select> <br>
+                     Date :
+            <input type="date" id="start" name="trip-start"
+                    value="2018-07-22"
+                    min="2018-01-01" max="2018-12-31">
+                
+                
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div class="button">
+                <button type="submit">SEND MESSAGE</button>
+            </div>
+        </form>
        
-
-
-
     <footer>
-        
     </footer>
     
-
-
-
-
-   
-<!-- /////////////////-->
-
     <script src="script/javascript.js"></script>
 </body>
 </html>
