@@ -1,0 +1,28 @@
+header{
+    background-color: var(--color-header);
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 20px;
+}
+
+nav a{
+    margin-right: auto;
+}
